@@ -1,0 +1,21 @@
+{
+  "name": "skill-installer",
+  "version": "1.0.0",
+  "description": "Install Claude Code and Codex skills from URLs to both ~/.claude/skills and ~/.codex/skills",
+  "main": "install-skill.js",
+  "bin": {
+    "install-skill": "./install-skill.js"
+  },
+  "scripts": {
+    "install-global": "npm link",
+    "test": "node install-skill.js --help"
+  },
+  "keywords": [
+    "claude",
+    "codex",
+    "skills",
+    "installer"
+  ],
+  "author": "",
+  "license": "MIT"
+}
