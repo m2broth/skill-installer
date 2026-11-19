@@ -8,7 +8,7 @@ A Node.js script to easily download and install Claude Code skills to both `~/.c
 - Supports single file (SKILL.md) or entire skill directories
 - Automatically extracts skill name from frontmatter
 - Installs to both Claude and Codex skill directories
-- Handles GitHub directory downloads using sparse checkout
+- Handles GitHub directory downloads through the GitHub contents API
 
 ## Installation
 
